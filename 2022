@@ -1,0 +1,15 @@
+-- Made By Random Dev#1020
+-- Discord: https://discord.gg/ehKSDwGRJw
+-- Doesn't Expire Btw
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Shitter 3000", "Ocean")
+
+-- MAIN
+local Hook = Window:NewTab("Hook")
+local ShitOnKidsSection = Hook:NewSection("Hook")
+
+
+ShitOnKidsSection:NewButton("Hook Shitter On er", "Aimbot Esp ect", function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidMasterX/strawhook/main/script.lua", true))()
+end)
